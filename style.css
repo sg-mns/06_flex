@@ -1,0 +1,73 @@
+html {
+    display: grid
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+nav ul {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    border: 1px solid black;
+    flex: 1;
+}
+
+article {
+    display: flex;
+    flex: 5;
+}
+
+
+header {
+    background-color: red;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex: 3;
+    flex-flow: row wrap;
+    background-color: lightblue;
+}
+
+section p {
+    flex: 1 0 200px;
+    border: 1px dotted white;
+}
+
+aside {
+    display: flex;
+    flex: 0.8;
+}
+
+#aside1 {
+    background-color: yellow;
+}
+
+#aside2 {
+    background-color: purple;
+}
+
+body {
+    /* background-color: rgb(25, 25, 25) !important; */
+    /* text-align: center; */
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex: 0.5;
+    background-color: lightgreen;
+}
+
+.container {
+    background-color: lightblue;
+}
